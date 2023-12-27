@@ -1,6 +1,6 @@
-# Broker Action Start V1
+# Broker Action End V1
 
-This action starts an action, so progress with an intention can be tracked.
+This action ends an action, so progress with an intention can be tracked.
 
 If you encounter an error, ensure that the Broker URL is correct and that the intention was not automatically closed at the end of the time to live (ttl) period.
 
@@ -12,7 +12,7 @@ Please refer to the [NR Broker Repository](https://github.com/bcgov-nr/nr-broker
 
 <!-- start usage -->
 ```yaml
-- uses: bcgov-nr/action-broker-intention-close@v1
+- uses: bcgov-nr/action-broker-action-end@v1
   with:
     # The token of the action to start
     action_token: ''
