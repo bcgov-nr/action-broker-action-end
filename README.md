@@ -1,4 +1,4 @@
-# Broker Action End V1
+# Broker Action End V2
 
 This action ends an action, so progress with an intention can be tracked.
 
@@ -12,7 +12,7 @@ Please refer to the [NR Broker Repository](https://github.com/bcgov-nr/nr-broker
 
 <!-- start usage -->
 ```yaml
-- uses: bcgov-nr/action-broker-action-end@v1
+- uses: bcgov-nr/action-broker-action-end@v2
   with:
     # The token of the action to start
     action_token: ''
