@@ -1,4 +1,4 @@
-# Broker Action End V2
+# Broker Action End V3
 
 This action ends an action, so progress with an intention can be tracked.
 
@@ -12,7 +12,7 @@ Please refer to the [NR Broker Repository](https://github.com/bcgov-nr/nr-broker
 
 <!-- start usage -->
 ```yaml
-- uses: bcgov-nr/action-broker-action-end@v2
+- uses: bcgov-nr/action-broker-action-end@v3
   with:
     # The token of the action to start
     action_token: ''
@@ -20,6 +20,10 @@ Please refer to the [NR Broker Repository](https://github.com/bcgov-nr/nr-broker
     # The broker url.
     # Default: 'https://broker.io.nrs.gov.bc.ca'
     broker_url: ''
+
+    # The outcome of the action. Must be 'success', 'failure' or 'unknown'
+    # Default: 'success'
+    outcome: 'success'
 ```
 <!-- end usage -->
 
